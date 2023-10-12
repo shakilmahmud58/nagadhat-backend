@@ -12,7 +12,7 @@ class SearchController extends Controller
 
     public function create(Request $req)
     {
-        $searchEngine = ['computer', 'laptop', 'mobile'];
+        $searchEngine = ['computer', 'laptop', 'mobile', 'tablet', 'wifi', 'router'];
         $text = $req->text;
         $user = $req->user;
         
